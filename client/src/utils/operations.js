@@ -5,16 +5,17 @@ const contractAddress='KT1DEUGuRM9VGhybPjKkp6JePCa96tWYN824';
 
 
   
-export const mintNFT = async (amount,metadata) => {
+export const mintNFT = async (address,amount,metadata,token_id) => {
       try {
         console.log(amount,metadata) 
+		console.log(tezos)
         const contract = await tezos.wallet.at(contractAddress);
         let bytes = "";
-        // for (var i = 0; i < metadata.length; i++) {
-        //   bytes += metadata.charCodeAt(i).toString(16).slice(-4);
-        // }
+        for (var i = 0; i < metadata.length; i++) {
+          bytes += metadata.charCodeAt(i).toString(16).slice(-4);
+        }
         console.log(contract)
-        const op = await contract.methods.mint(amount, bytes).send();
+        const op = await contract.methods.mint(address,amount, metadata={"":bytes},token_id).send();
         console.log(op)
         console.log(op.confirmation)
         await op.confirmation();

@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { useFilePicker } from "use-file-picker";
-import { NFTStorage, File } from "nft.storage";
+// import {  File } from "nft.storage";
+import { NFTStorage } from 'nft.storage/dist/bundle.esm.min.js'
  
 import { mintNFT } from "../utils/operations";
 
@@ -50,7 +51,7 @@ const Form = () => {
             });
             console.log(metadata);
             console.log(amount)
-            mintNFT(amount,metadata)
+            mintNFT("tz1ey27WW4RNGq2xav8RrHoEWLoCBxwesQRV",amount,metadata,1)
      
             setLoading(false);
             setName("");
