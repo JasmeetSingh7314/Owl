@@ -1,26 +1,21 @@
-import {TempleWallet} from '@temple-wallet/dapp'
 
-export const wallet = new TempleWallet('TheOwlApp');
+import { BeaconWallet } from "@taquito/beacon-wallet";
 
-export const connectWallet=async ()=>{
-    try {
-        const available = await TempleWallet.isAvailable();
-        if (!available) {
-          throw new Error('Temple Wallet not installed');
-        }
-      } catch (err) {
-        console.log(err);
-      }
-      await wallet.connect('ghostnet' );
+export const wallet = new BeaconWallet({
+    name: "Tezos Lottery Dapp",
+    preferredNetwork: "ghostnet",
+})
 
-}
+export const connectWallet = async () => {
+    await wallet.requestPermissions({ network: {type: "ghostnet"}});
+};
 
-export const getAccount=async ()=>{
-    const currentUserAddress = wallet.pkh || (await wallet.getPKH());
-    if(currentUserAddress){
-        return currentUserAddress;
-    }else{
-        return ""
+export const getAccount = async () => {
+    const connectedWallet = await wallet.client.getActiveAccount();
+    if (connectedWallet) {
+        return connectedWallet.address;
     }
-
-}
+    else{
+        return "";
+    }
+};
