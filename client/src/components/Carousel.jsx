@@ -1,7 +1,7 @@
 import React from 'react';
-import {BsInstagram,BsArrowLeftShort,BsArrowRightShort} from 'react-icons/bs';
-import { slideAnimation,headTextAnimation } from '../utils/motion'
-import { MintNFT } from '../utils/operations';
+import {BsArrowLeftShort,BsArrowRightShort} from 'react-icons/bs';
+
+
 
 
 import './Carousel.css';
@@ -63,7 +63,7 @@ const Carousel = () => {
         {galleryimages.map((image,index)=>(
           <div className='app__gallery-images_card flex__center ' key={`IMAGE_GALLERY_${index+1}`}>
             <img src={image.url} className='z-0 absolute' alt='alt' />
-            <div className=' z-1 absolute align-bottom'>
+            <div className='app__gallery-text z-1 absolute align-bottom'>
             <p className='italic font-montserrat text-[20px] text-white'>Name{index+1}</p>
             </div>
           </div>

@@ -1,9 +1,8 @@
 import React,{useState} from 'react'
 import { useFilePicker } from "use-file-picker";
-// import {  File } from "nft.storage";
-import { NFTStorage } from 'nft.storage/dist/bundle.esm.min.js'
+import { NFTStorage, File } from "nft.storage";
  
-import { mintNFT } from "../utils/operations";
+import { mintNFT } from '../utils/operations';
 
 const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGZENzAwNkUzNDk2REM5QTlkNGRCMmRlN2Y5NTBlN0M3MmYwZjU3NTQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY5MjAyMDYzMzkyNSwibmFtZSI6IlNlZCBWYWkifQ.PpABS7QPJjW59sNKrIZWIZ3BW7gP0UBJ-2fZj7GNgC0";
 const client = new NFTStorage({ token: apiKey });
@@ -51,7 +50,7 @@ const Form = () => {
             });
             console.log(metadata);
             console.log(amount)
-            mintNFT("tz1ey27WW4RNGq2xav8RrHoEWLoCBxwesQRV",amount,metadata,1)
+            mintNFT(amount,metadata)
      
             setLoading(false);
             setName("");
