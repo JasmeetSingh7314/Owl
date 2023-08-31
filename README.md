@@ -17,15 +17,25 @@ iv). Non-transferble licenses
 
 
 Tech Stack - 
+
 Frontend - 
+
 ReactJS+Vite
+
 Typescript
+
 Tailwind CSS
+
 Taquito for interacting with the smart contract
+
 Beacon SDK for interacting with the wallet
+
 Backend - 
+
 NodeJS
+
 IGDB api for getting information about the games
+
 
 Project Video Link - https://youtu.be/M_jH7wCP2yQ
 
