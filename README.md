@@ -6,10 +6,15 @@ Project Description -
 Owl is the ultimate platform where you can buy and sell games. Through Owl we want to revolutionize the world of gaming. For each game you buy on OWL you will get a nft for that(different NFTs will be generated for different game) and with that nft you will get the license key for that game that will be used to activate the game once it has been bought. Every game you buy, the proof of transaction will be pushed onto the blockchain proving your ownership and removing the risk of ever losing the ownership of that game. On OWL you can also resell the games that you have already bought once again(reusable licenses), the number of times you can resell is limited. 
 
 Problems we are solving -
+
 i). Piracy and Security 
+
 ii). Centralization
+
 iii). Non-fractional Ownership(single entity ownership) 
+
 iv). Non-transferble licenses
+
 
 Tech Stack - 
 Frontend - 
@@ -25,7 +30,9 @@ IGDB api for getting information about the games
 Project Video Link - https://youtu.be/M_jH7wCP2yQ
 
 Smart Contract Address - 
+
 KT1JexJ1zkHhEhP7EXojJphAuVQ4sUgMCiyY - Token Contract 
+
 KT1RyU6sq5uPLeg5HqpQjccL6czVux8q1T7e - Marketplace Contract
 
 Github Repo - https://github.com/JasmeetSingh7314/Owl
@@ -33,10 +40,15 @@ Github Repo - https://github.com/JasmeetSingh7314/Owl
 PPT - https://gamma.app/docs/OWL-960qlxsiq4kv5cx
 
 Team Members - 
-i).Jasmeet Singh
+
+i). Jasmeet Singh
+
 ii). Prabhpreet Singh
+
 iii). Sahebjeet Singh
+
 iv). Surkhab Singh
+
 
 Screenshots - 
 ![image](https://github.com/JasmeetSingh7314/Owl/assets/120186223/de455366-e11e-4b26-8e66-15ee5390867b)
