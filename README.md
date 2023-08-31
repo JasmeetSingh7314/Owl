@@ -1,4 +1,4 @@
-![image2](https://github.com/JasmeetSingh7314/Owl/assets/120186223/ff112c80-af21-4536-8f34-681a444259ee)Team Name - Coding Homies
+Team Name - Coding Homies
 
 Project Name - Owl
 
