@@ -35,7 +35,7 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 
 - Beacon SDK (*for interacting with the wallet*)
 
-## Backend - 
+### Backend - 
 
 - NodeJS
 
