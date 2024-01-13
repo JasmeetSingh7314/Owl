@@ -10,7 +10,7 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 - For every game you buy, *the proof of transaction* will be pushed onto the blockchain proving your ownership and removing the risk of ever losing the ownership of that game.
 - You can also **resell** the games that you have already bought once again(reusable licenses), the number of times you can resell is limited. 
 
-## Problems we are solving -
+## Problems we are solving :
 
 - Piracy and Security 
 
@@ -21,9 +21,9 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 - Non-transferble licenses
 
 
-## Tech Stack - 
+## Tech Stack:
 
-### Frontend - 
+### Frontend:
 
 - ReactJS+Vite
 
@@ -35,7 +35,7 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 
 - Beacon SDK (*for interacting with the wallet*)
 
-### Backend - 
+### Backend:
 
 - NodeJS
 
@@ -45,7 +45,7 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 ## Project Video Link 
 - https://youtu.be/M_jH7wCP2yQ
 
-## Smart Contract Address - 
+## Smart Contract Address :
 
 - KT1JexJ1zkHhEhP7EXojJphAuVQ4sUgMCiyY : **Token** Contract 
 
@@ -55,7 +55,7 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 - https://gamma.app/docs/OWL-960qlxsiq4kv5cx
 
 
-## About the Team - 
+## About the Team :
  *The Coding Homies*
 
 - Jasmeet Singh
@@ -67,7 +67,7 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 - Surkhab Singh
 
 
-## Screenshots
+## Screenshots:
 - ![image](https://github.com/JasmeetSingh7314/Owl/assets/120186223/de455366-e11e-4b26-8e66-15ee5390867b)
 - ![image](https://github.com/JasmeetSingh7314/Owl/assets/120186223/2f590fdd-7e83-4bd2-89f0-d37e23847712)
 - ![image1](https://github.com/JasmeetSingh7314/Owl/assets/120186223/eb74eee2-6933-45b0-a15a-a462b1d79e2b)
