@@ -58,13 +58,13 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 ## About the Team :
  *The Coding Homies*
 
-- Jasmeet Singh
+- [Jasmeet Singh](https://github.com/JasmeetSingh7314)
 
 - Prabhpreet Singh
 
-- Sahebjeet Singh
+- [Sahebjeet Singh](https://github.com/SahebjeetSINGH)
 
-- Surkhab Singh
+- [Surkhab Singh](https://github.com/SurkhabSingh)
 
 
 ## Screenshots:
