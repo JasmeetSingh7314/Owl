@@ -67,6 +67,9 @@ Through Owl we want to **revolutionize** the world of **gaming**. For each game 
 - [Surkhab Singh](https://github.com/SurkhabSingh)
 
 
+## Achievements:
+- Bagged first place in TezAsia 2k23. Won amongst other 12000 participants.
+
 ## Screenshots:
 - ![image](https://github.com/JasmeetSingh7314/Owl/assets/120186223/de455366-e11e-4b26-8e66-15ee5390867b)
 - ![image](https://github.com/JasmeetSingh7314/Owl/assets/120186223/2f590fdd-7e83-4bd2-89f0-d37e23847712)
